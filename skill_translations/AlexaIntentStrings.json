@@ -1,0 +1,624 @@
+{
+	"German": {
+		"interactionModel": {
+			"languageModel": {
+				"invocationName": "meinen drei d druckserver",
+				"intents": [
+					{
+						"name": "AMAZON.FallbackIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.NavigateHomeIntent",
+						"samples": []
+					},
+					{
+						"name": "GetStatusIntent",
+						"slots": [],
+						"samples": [
+							"frage meinen drei D Druckserver nach dem Status",
+							"frage meinen drei D Druckserver nach einer Statusaktualisierung",
+							"frage meinen drei D Druckserver nach einem Update",
+							"frage meinen drei D Druckserver was gerade gedruckt wird",
+							"frage meinen drei D Druckserver nach meinem Druckerstatus",
+							"aktualisieren",
+							"status",
+							"wie ist der Zustand meines Druckers",
+							"gib mir ein Update über meinen Status.",
+							"gib mir ein Update.",
+							"was wird gerade gedruckt",
+							"wie ist mein Druckerstatus",
+							"wie ist der Status"
+						]
+					},
+					{
+						"name": "DemoIntent",
+						"slots": [],
+						"samples": [
+							"Beispiel",
+							"sample response",
+							"Stichprobe",
+							"Demo"
+						]
+					},
+					{
+						"name": "GetTempIntent",
+						"slots": [],
+						"samples": [
+							"frage meinen drei D Druckserver nach der Temperatur",
+							"frage meinen drei D Druckserver nach seiner Temperatur",
+							"frage meinen drei D Druckserver wie hoch die Druckertemperatur ist",
+							"frage meinen drei D Druckserver nach der Druckertemperatur",
+							"Temperatur",
+							"temp",
+							"Wie ist die Temperatur meines Druckers",
+							"Gib mir die Temperatur.",
+							"Was ist die aktuelle Temperatur",
+							"Wie hoch ist meine Druckertemperatur",
+							"Wie hoch ist die Druckertemperatur"
+						]
+					},
+					{
+						"name": "GetTimeIntent",
+						"slots": [],
+						"samples": [
+							"frage meinen drei D Druckserver nach der verbleibenden Zeit",
+							"frage meinen drei D Druckserver wie viel Zeit noch übrig ist",
+							"frage meinen drei D Druckserver wie lange noch",
+							"Zeit",
+							"Wie viel Zeit ist noch übrig.",
+							"Wie viel Zeit bleibt noch."
+						]
+					},
+					{
+						"name": "AMAZON.PauseIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.ResumeIntent",
+						"samples": []
+					}
+				],
+				"types": []
+			}
+		}
+	},
+	"English": {
+		"interactionModel": {
+			"languageModel": {
+				"invocationName": "my three d. print server",
+				"intents": [
+					{
+						"name": "AMAZON.FallbackIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.NavigateHomeIntent",
+						"samples": []
+					},
+					{
+						"name": "GetStatusIntent",
+						"slots": [],
+						"samples": [
+							"ask my three d. print server for status",
+							"ask my three d. print serve for a status update",
+							"ask my three d. print server for an update",
+							"ask my three d. print server what is printing",
+							"ask my three d. print server for my printer status",
+							"update",
+							"status",
+							"what is the state of my printer.",
+							"give me an update on my status.",
+							"give me an update.",
+							"what is currently printing.",
+							"what is my printer status.",
+							"what is my status."
+						]
+					},
+					{
+						"name": "DemoIntent",
+						"slots": [],
+						"samples": [
+							"example",
+							"sample response",
+							"sample",
+							"demo"
+						]
+					},
+					{
+						"name": "GetTempIntent",
+						"slots": [],
+						"samples": [
+							"ask my three d. print server for temperature",
+							"ask my three d. print serve for it's temperature",
+							"ask my three d. print server for the temperature",
+							"ask my three d. print server what is the printer temp",
+							"ask my three d. print server for my printer temperature",
+							"temperature",
+							"temp",
+							"what is the temperature of my printer.",
+							"give me the temp.",
+							"give me the temperature.",
+							"what is the current temp.",
+							"what is my printer temperature.",
+							"what is my temp."
+						]
+					},
+					{
+						"name": "GetTimeIntent",
+						"slots": [],
+						"samples": [
+							"ask my three d. print server for time remaining",
+							"ask my three d. print server how much time is left",
+							"ask my three d. print server how long",
+							"time",
+							"how much time is left.",
+							"how much time is remaining."
+						]
+					},
+					{
+						"name": "AMAZON.PauseIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.ResumeIntent",
+						"samples": []
+					}
+				],
+				"types": []
+			}
+		}
+	},
+	"Portuguese": {
+		"interactionModel": {
+			"languageModel": {
+				"invocationName": "meus três d. servidor de impressão",
+				"intents": [
+					{
+						"name": "AMAZON.FallbackIntent",
+						"slots": [],
+						"samples": []
+					},
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.NavigateHomeIntent",
+						"samples": []
+					},
+					{
+						"name": "GetStatusIntent",
+						"slots": [],
+						"samples": [
+							"pergunte ao meu servidor de impressão em três dimensões",
+							"peça ao meu serviço de impressão em três dimensões uma atualização de status",
+							"peça ao meu servidor de impressão em três dimensões uma atualização",
+							"pergunte ao meu servidor de impressão em três dimensões o que está imprimindo",
+							"peça ao meu servidor de impressão em três dimensões o status da minha impressora",
+							"atualizar",
+							"status",
+							"qual é o estado da minha impressora.",
+							"atualize meu status.",
+							"atualize-me.",
+							"o que está sendo impresso no momento.",
+							"qual é o status da minha impressora.",
+							"qual é o meu status."
+						]
+					},
+					{
+						"name": "DemoIntent",
+						"slots": [],
+						"samples": [
+							"exemplo",
+							"resposta de amostra",
+							"amostra",
+							"demo"
+						]
+					},
+					{
+						"name": "GetTempIntent",
+						"slots": [],
+						"samples": [
+							"pergunte ao meu servidor de impressão em três dimensões.",
+							"pergunte ao meu serviço de impressão de três d. por sua temperatura",
+							"pergunte ao meu servidor de impressão em três dimensões.",
+							"pergunte ao meu servidor de três impressoras qual é a temperatura da impressora",
+							"pergunte ao servidor de impressão em três dimensões a temperatura da minha impressora",
+							"temperatura",
+							"temp",
+							"qual é a temperatura da minha impressora.",
+							"me dê a temperatura.",
+							"me dê a temperatura.",
+							"qual é a temperatura atual.",
+							"qual é a temperatura da minha impressora.",
+							"qual é a minha temperatura."
+						]
+					},
+					{
+						"name": "GetTimeIntent",
+						"slots": [],
+						"samples": [
+							"pergunte ao meu servidor de impressão em três dimensões o tempo restante",
+							"pergunte ao meu servidor de impressão em três alturas quanto tempo resta",
+							"pergunte ao meu servidor de impressão em três dimensões quanto tempo",
+							"Tempo",
+							"quanto tempo falta.",
+							"quanto tempo resta."
+						]
+					},
+					{
+						"name": "AMAZON.PauseIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.ResumeIntent",
+						"samples": []
+					}
+				],
+				"types": []
+			}
+		}
+	},
+	"Spanish": {
+		"interactionModel": {
+			"languageModel": {
+				"invocationName": "mi servidor de impresión de tres d.",
+				"intents": [
+					{
+						"name": "AMAZON.FallbackIntent",
+						"slots": [],
+						"samples": []
+					},
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.NavigateHomeIntent",
+						"samples": []
+					},
+					{
+						"name": "GetStatusIntent",
+						"slots": [],
+						"samples": [
+							"preguntar a mi servidor de impresión de tres d. el estado",
+							"solicite a mi servidor de impresión de tres d. una actualización de estado",
+							"pedir una actualización a mi servidor de impresión de tres d.",
+							"pregunte a mi servidor de impresión de tres d. qué está imprimiendo",
+							"preguntar a mi servidor de impresión de tres d. el estado de mi impresora",
+							"actualizar",
+							"estado",
+							"Cuál es el estado de mi impresora",
+							"dame una actualización de mi estado",
+							"dame una actualización",
+							"lo que se está imprimiendo actualmente",
+							"Cuál es el estado de mi impresora",
+							"Cuál es mi estado"
+						]
+					},
+					{
+						"name": "DemoIntent",
+						"slots": [],
+						"samples": [
+							"ejemplo",
+							"respuesta de muestra",
+							"muestra",
+							"manifestación"
+						]
+					},
+					{
+						"name": "GetTempIntent",
+						"slots": [],
+						"samples": [
+							"pregunte a mi servidor de impresión de tres días la temperatura",
+							"pregúntale a mis tres d. imprimir sirve por su temperatura",
+							"pregunte a mi servidor de impresión de tres d. la temperatura",
+							"pregunte a mi servidor de impresión de tres d. cuál es la temperatura de la impresora",
+							"preguntar a mi servidor de impresión de tres d. la temperatura de mi impresora",
+							"temperatura",
+							"temperatura",
+							"Cuál es la temperatura de mi impresora",
+							"dame la temperatura",
+							"dame la temperatura",
+							"cuál es la temperatura actual",
+							"cuál es la temperatura de mi impresora",
+							"Cuál es mi temperatura"
+						]
+					},
+					{
+						"name": "GetTimeIntent",
+						"slots": [],
+						"samples": [
+							"pregunte a mi servidor de impresión de tres d. por el tiempo restante",
+							"pregunte a mi servidor de impresión de tres días cuánto tiempo queda",
+							"pregunte a mi servidor de impresión de tres días cuánto tiempo",
+							"hora",
+							"cuánto tiempo queda",
+							"cuánto tiempo queda"
+						]
+					},
+					{
+						"name": "AMAZON.PauseIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.ResumeIntent",
+						"samples": []
+					}
+				],
+				"types": []
+			}
+		}
+	},
+	"French": {
+		"interactionModel": {
+			"languageModel": {
+				"invocationName": "mes trois d. serveur d'imprimante",
+				"intents": [
+					{
+						"name": "AMAZON.FallbackIntent",
+						"slots": [],
+						"samples": []
+					},
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.NavigateHomeIntent",
+						"samples": []
+					},
+					{
+						"name": "GetStatusIntent",
+						"slots": [],
+						"samples": [
+							"demander l'état de mon serveur d'impression trois d.",
+							"demander une mise à jour de statut à mon serveur d'impression trois d.",
+							"demander à mon serveur d'impression trois d. une mise à jour",
+							"demander à mon serveur d'impression trois d. le statut de mon imprimante",
+							"mise à jour",
+							"statut",
+							"quel est l'état de mon imprimante.",
+							"donnez-moi une mise à jour sur mon statut.",
+							"donnez-moi une mise à jour.",
+							"qu'est ce qui est en train d'imprimer.",
+							"quel est le statut de mon imprimante.",
+							"quel est mon statut."
+						]
+					},
+					{
+						"name": "DemoIntent",
+						"slots": [],
+						"samples": [
+							"exemple",
+							"exemple de réponse",
+							"échantillon",
+							"démo"
+						]
+					},
+					{
+						"name": "GetTempIntent",
+						"slots": [],
+						"samples": [
+							"demander à mon serveur d'impression trois d. la température",
+							"demander à mon serveur d'impression trois d. sa température",
+							"demander à mon serveur d'impression trois d. quelle est la température de l imprimante",
+							"Température",
+							"temp",
+							"quelle est la température de mon imprimante.",
+							"donne moi la température.",
+							"quel est la température actuelle.",
+							"quelle est la température de mon imprimante.",
+						]
+					},
+					{
+						"name": "GetTimeIntent",
+						"slots": [],
+						"samples": [
+							"demander à mon serveur d'impression trois d. combien de temps il reste.",
+							"temps",
+							"combien de temps reste-t-il.",
+							"combien de temps reste"
+						]
+					},
+					{
+						"name": "AMAZON.PauseIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.ResumeIntent",
+						"samples": []
+					}
+				],
+				"types": []
+			}
+		}
+	},
+	"Italian": {
+		"interactionModel": {
+			"languageModel": {
+				"invocationName": "i miei tre d. server di stampa",
+				"intents": [
+					{
+						"name": "AMAZON.FallbackIntent",
+						"slots": [],
+						"samples": []
+					},
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": [
+							"Cancella stampa",
+							"Interrompi stampa"
+						]
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": [
+							"Aiuto",
+							"Help",
+							"Non funziona",
+							"Cosa devo fare"
+						]
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.NavigateHomeIntent",
+						"samples": [
+							"Torna al menu principale"
+						]
+					},
+					{
+						"name": "GetStatusIntent",
+						"slots": [],
+						"samples": [
+							"chiedi al mio server di stampa tre d.",
+							"chiedi al mio server di stampa un aggiornamento dello stato",
+							"chiedi un aggiornamento al mio server di stampa tre d",
+							"chiedi al mio server di stampa tre d cosa stampa",
+							"chiedi al mio server di stampa tre d lo stato della mia stampante", // connected with HelpMessage and HelpMessageGoogle
+							"aggiornami.",
+							"stato",
+							"qual è lo stato della mia stampante.",
+							"dammi un aggiornamento sullo stato",
+							"dammi un aggiornamento.",
+							"ciò che sta attualmente stampando",
+							"qual è lo stato della mia stampante",
+							"qual è il mio status",
+							"quanto manca",
+							"manca ancora molto",
+							"a che punto è la stampante",
+							"a che punto è la stampa tre d"
+						]
+					},
+					{
+						"name": "DemoIntent",
+						"slots": [],
+						"samples": [
+							"esempio",
+							"esempi",
+							"esempio di intento",
+							"Demo"
+						]
+					},
+					{
+						"name": "GetTempIntent",
+						"slots": [],
+						"samples": [
+							"chiedi la temperatura del mio server di stampa tre d",
+							"chiedi la temperatura alla stampa tre d",
+							"chiedi la temperatura al mio server di stampa tre d",
+							"chiedi al mio tre server di stampa qual è la temperatura della stampante",
+							"chiedi al mio server di stampa tre d la temperatura della mia stampante",
+							"temperatura",
+							"Temp",
+							"dammi temperatura.",
+							"dammi la temperatura.",
+							"dammi le temperature.",
+							"leggi tempertura.",
+							"aggiornami sulle temperature",
+							"qual è la temperatura della mia stampante",
+							"quali sono le temperature della mia stampante",
+							"qual è la temperatura della stampante",
+							"qual è la temperatura attuale",
+							"qual è temp"
+						]
+					},
+					{
+						"name": "GetTimeIntent",
+						"slots": [],
+						"samples": [
+							"chiedi al mio server di stampa tre d. tempo rimanente",
+							"chiedi al mio server di stampa tre d quanto tempo rimane",
+							"chiedi al mio server di stampa tre d quanto tempo manca",
+							"chiedi al mio server tre d. print quanto tempo",
+							"tempo",
+							"quanto tempo è rimasto",
+							"quanto tempo rimane",
+							"quanto tempo manca alla fine della stampa",
+							"quanto tempo manca alla fine",
+							"quanto tempo manca"
+						]
+					},
+					{
+						"name": "AMAZON.PauseIntent",
+						"samples": [
+							"pausa la stampa tre d",
+							"ferma la stampa tre d",
+							"pausa la stampa",
+							"smetti di stampare",
+							"ferma la stampa",
+							"fermati",
+							"pausa"
+						]
+					},
+					{
+						"name": "AMAZON.ResumeIntent",
+						"samples": [
+							"riprendi la stampa tre d",
+							"continua la stampa tre d",
+							"riprendi a stampare",
+							"continua a stampare",
+							"riprendi la stampa",
+							"continua la stampa",
+							"finisci la pausa",
+							"smetti la pausa"
+						]
+					}
+				],
+				"types": []
+			}
+		}
+	}
+}
