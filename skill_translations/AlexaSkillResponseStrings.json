@@ -3,7 +3,7 @@
     "default": {
       "Static": {
         "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?",
-        "Demo1": "Here is a sample response: Your Printer is currently Printing. The Hot End Temperature is 220.0 degrees. The Bed Temperature is 60.1 degrees. The currently printing job is Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub>. The current job is 25 percent complete. The estimated time remaining is 3 hours, 20 minutes, 14 seconds.",
+        "Demo1": "Here is a sample response: Your Printer is currently Printing. The Hot End Temperature is 220.0 degrees. The Bed Temperature is 60.1 degrees. The currently printing job is Spool_Holder_15_millimeter<sub alias=\"ponto gê code\">.gcode</sub>. The current job is 25 percent complete. The estimated time remaining is 3 hours, 20 minutes, 14 seconds.",
         "Demo2": "Here is a sample response: Your Printer is currently Idle. The Hot End Temperature is 72.0 degrees. The Bed Temperature is 27.5 degrees. The previous job Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub> completed in 3 hours, 20 minutes, 14 seconds.",
         "HelpMessage": "With the <sub alias=\"Octo Vox\">OctoVox</sub> skill you can get information about your OctoPrint connected 3-D printer from your Amazon Echo devices. You can say things like: ask my 3-D print server for my printer status, or, ask my 3-D print server what is printing. You can also say, \"Demo\", to hear a sample response.",
         "HelpAccountLink": "This skill will require you to create and link an account to use most of the features. We have delivered a LinkAccount home card to the Alexa App. Please go to the Alexa App to setup your account.",
@@ -300,7 +300,63 @@
     },
     "pt-BR": {
       "Static": {
-        "WelcomeSsml": "Bem-vindo ao <sub alias=\"Octo Vox\">OctoVox</sub>! Como posso ajudá-lo?"
+        "WelcomeSsml": "Bem-vindo ao <sub alias=\"Octo Vox\">OctoVox</sub>! Como posso te ajudar?",
+        "Demo1": "Aqui está um exemplo de resposta: No momento a sua Impressora está Imprimindo. A temperatura do Hot End é de 220.0 graus. A Temperatura da Cama é de 60.1 graus. O Arquivo que está sendo impresso é o Spool_Holder_15_millimeter<sub alias=\"ponto gê code\">.gcode</sub>. A impressão está em 25 porcento. O tempo estimado para finalizar a impressão é de 3 horas, 20 minutos, 14 segundos.",
+        "Demo2": "Aqui está um exemplo de resposta: No momento a sua Impressora está Ociosa. A temperatura do Hot End é de 72.0 graus. A Temperatura da Cama é de 27.5 graus. A impressão anterior Spool_Holder_15_millimeter<sub alias=\"ponto gê code\">.gcode</sub> levou 3 horas, 20 minutos, 14 segundos.",
+        "HelpMessage": "Com a skill <sub alias=\"Octo Vox\">OctoVox</sub> você pode obter informações sobre o seu OctoPrint conectado à sua impressora 3-D com seus dispositivos Amazon Echo. Você pode dizer coisas como: pergunte para meu servidor de impressão 3-D pelo status da minha impressora, ou, pergunte para meu servidor de impressão 3-D o que está imprimindo. Você também pode dizer, \"Exemplo\", para escutar uma resposta de exemplo.",
+        "HelpAccountLink": "Esta skill precisará que você crie e vincule uma conta para usar a maioria dos recursos. Enviamos o LinkAccount para o App Alexa. Por favor abra o App Alexa App para configurar a sua conta.",
+        "Prompt": "O que você quer fazer?",
+        "HelpPrompt": "Como eu posso te ajudar?",
+        "Goodbye": "Obrigado por usar o <sub alias=\"Octo Vox\">OctoVox.</sub>.",
+        "Fallback": "Eu não entendi direito o que me perguntou, ou eu ainda não sei executar esta tarefa. Aqui está o status da sua impressora.",
+        "AccountLinkWelcome": "Bem-vindo ao <sub alias=\"Octo Vox\">OctoVox</sub>! Esta skill requer vinculação de conta. Nós enviamos um LinkAccount para o App Alexa. Por favor abra o seu App Alexa para configurar a sua conta. Você pode dizer, \"Ajuda\", para mais informações. Agora, o que posso fazer por você?",
+        "AccountLink": "Esta skill requer vinculação de conta. Enviamos um LinkAccount para o App Alexa. Por favor vá até seu App Alexapara configurar a sua conta. Você pode dizer, \"Ajuda\", para mais informações. Agora, o que posso fazer por você?",
+        "HelpMessageGoogle": "Com a ação OctoVox você pode obter informações sobre o seu OctoPrint conectado à sua impressora 3-D a partir dos seus dipositivos Google Home. Você pode dizer coisas como: pergunte para meu servidor de impressão 3-D pelo status da minha impressora, ou, pergunte para meu servidor de impressão 3-D o que está imprimindo.",
+        "HelpMessageLinkGoogle": "Para usar este aplicativo, você precisará vincular sua conta OctoVox com o Google. Você pode dizer, \"Vincular Conta\", para iniciar o processo. Você pode dizer, \"Exemplo\", para escutar uma resposta de exemplo.",
+        "AccountLinkGoogle": "Parece que você não vinculou sua conta do OctoVox com o Google. Por favor diga, \"Vincular Conta\", para iniciar a configuração. Você pode dizer, \"Ajuda\", para mais informações.",
+        "AccountLinkGoogleReprompt": "Por favor diga \"Vincular Conta\" para continuar com a configuração",
+        "StopString": "Obrigado por usar o OctoVox!"
+      },
+      "Measure": {
+        "Test": "TestMeasure {0}",
+        "HotEndTemp": "A Temperatura do Hot End é de {0} graus.",
+        "BedTemp": "A Temperatura da Cama é de {0} graus.",
+        "PrinterState": "{0} está {1}.",
+        "CompletionPercent": "A impressão está em {0} porcento.",
+        "TimeRemaining": "O Tempo Estimado para finalizar a impressão é de {0}.",
+        "CurrentZ": "A Altura do eixo Z é de {0} milimetros.",
+        "Filename": "O Arquivo que está sendo impresso é o {0}.",
+        "LastJobResultSuccess": "O impressão anterior {0} levou {1}.",
+        "LastJobResultFailure": "O impressão anterior {0} falhou porque {1}."
+      },
+      "Error": {
+        "ResponseError": "{0} está com algum problema nos dados de retorno.",
+        "NoUpdateError": "{0} não retorna status há mais de {1} {2}. Verifique as configurações.",
+        "NoStatusError": "{0} sem status de erro.",
+        "UnknownHotEnd": "A Temperatura do Hot End está indiponível.",
+        "UnknownBed": "A Temperatura da Cama está indiponível",
+        "UnknownFile": "O arquivo de impressão desconhecido.",
+        "UnknownPercentage": "A porcetagem de impressão desconhecida.",
+        "UnknownEta": "O Tempo restante de impressão desconhecida.",
+        "RequestValidationFailed": "Falha ao Validar a sua Solicitação",
+        "NoRegisteredPrinters": "Você não tem nenhuma impressora registrada"
+      },
+      "Time": {
+        "Day": "dia",
+        "Days": "dias",
+        "Hour": "hora",
+        "Hours": "horas",
+        "Minute": "minuto",
+        "Minutes": "minutos",
+        "Second": "segundo",
+        "Seconds": "segundos"
+      },
+      "PrinterStateValues": {
+        "Offline": "Desconectada",
+        "Error": "Com erro",
+        "Printing": "Imprimindo",
+        "Idle": "Ociosa",
+        "Unknown": "Desconhecida"
       }
     }
   }
